@@ -134,7 +134,7 @@ public class MainClass {
 			Core.gemm(homography, col, 1, new Mat(),1, col);
 //			System.out.println("Values of Matched1 X and Y After multiplying: "+col.dump());
 			double[] temp=col.get(2,0);
-			System.out.println("Valu which will devide the col :"+temp[0]);
+		//	System.out.println("Valu which will devide the col :"+temp[0]);
 			for(int r=0;r<col.rows();r++)
 			{
 				double[] tempMat=col.get(r, 0);
